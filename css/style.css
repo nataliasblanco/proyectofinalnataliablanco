@@ -30,6 +30,23 @@ p, a{
 .ocultar{
     display: none;
 }
+
+.contenedor{
+    margin: 0 auto;
+}
+@keyframes desplazamiento {
+
+    /*desplazamiento inicial*/
+
+    0%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
 /*ENCABEZADO*/
 .encabezado{
     background-image: url(/img/fondocolumnamuseo.avif);
@@ -38,6 +55,18 @@ p, a{
     min-height: 70rem;
     background-size: cover;
     background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+.encabezado::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: -1;
 }
 .logo h2{
     font-size: 3rem;
@@ -54,6 +83,50 @@ p, a{
     box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.45);
 }
 
+.navegacion{
+    background-color: var(--blanco);
+    position: absolute;
+    left: 0;
+    top: 70px;
+    width: 100%;
+    animation: desplazamiento .5s ease-in-out;
+}
+
+@media(min-width: 768px){
+    .ocultar{
+        display: inline;
+    }
+}
+
+.navegacion a{
+    display: block;
+    font-size: 2rem;
+    padding: 1.1rem;
+    color: var(--oscuro);
+    text-decoration: none;
+    transition: background-color .3s ease-in-out;
+
+}
+.navegacion a:hover{
+    background-color: var(--AzulClaro);
+    color: var(--blanco)
+}
+
+@media(min-width: 768px){
+    .navegacion a{
+        display: inline;
+    }
+
+}
+@media(min-width: 768px){
+    .navegacion{
+        position: relative;
+        top: unset;
+        width: auto;
+        background-color: unset;
+        animation: unset;
+    }
+}
 .hamburguesa span{
     width: 5rem;
     height: 1rem;
@@ -62,9 +135,26 @@ p, a{
     display: block;
 }
 
+@media(min-width:768px){
+    .hamburguesa{
+        display: none;
+    }
+}
 
+/*CONTENIDO DEL ENCABEZADO*/
 
+.texto-encabezado h1{
+    font-size: 3rem;
+    text-align: center;
+    color: var(--blanco);
+    padding-top: 8rem;
+}
 
-
-
-/*LLEGUÉ A ESCUCHAR DEL VIDEO https://www.youtube.com/watch?v=kM7fDbq0I_M HASTA ...*/
+.formulario-encabezado{
+    background-color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    border-radius: .5rem;
+}
