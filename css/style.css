@@ -1,0 +1,70 @@
+:root{
+    --oscuro: #07070A;
+    --azulOscuro: #0A1128;
+    --AzulClaro: #006fe6;
+    --blanco: #fefcfb;
+    --titulos: 'Work Sans', cursive;
+    --parrafos: 'Roboto', sans-seriff;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+/*ESTILOS GENERALES*/
+h1, h2, h3{
+    font-family: var(--titulos);
+}
+
+p, a{
+    font-family: var(--parrafos);
+}
+
+.ocultar{
+    display: none;
+}
+/*ENCABEZADO*/
+.encabezado{
+    background-image: url(/img/fondocolumnamuseo.avif);
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 70rem;
+    background-size: cover;
+    background-position: center center;
+}
+.logo h2{
+    font-size: 3rem;
+}
+
+.logo h2 span{
+    color: var(--azulOscuro);
+}
+.contenido-navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--blanco);
+    box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.45);
+}
+
+.hamburguesa span{
+    width: 5rem;
+    height: 1rem;
+    border: 3px solid white;
+    background-color: var(--oscuro);
+    display: block;
+}
+
+
+
+
+
+
+/*LLEGUÉ A ESCUCHAR DEL VIDEO https://www.youtube.com/watch?v=kM7fDbq0I_M HASTA ...*/
