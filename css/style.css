@@ -1,6 +1,7 @@
 :root{
     --oscuro: #07070A;
-    --azulOscuro: #0A1128;
+    --beigeOscuro: #b08e6b;
+    --beigeMasOscuro: #7a5c3c;
     --AzulClaro: #006fe6;
     --blanco: #fefcfb;
     --titulos: 'Work Sans', cursive;
@@ -43,8 +44,8 @@ p, a{
     color: var(--blanco);
 }
 .bordes{
-    border: 2px solid var(--AzulClaro);
-    color: var(--AzulClaro);
+    border: 2px solid var(--beigeMasOscuro);
+    color: var(--beigeMasOscuro);
     text-decoration: none;
     display: block;
     text-align: center;
@@ -57,14 +58,14 @@ p, a{
     }
 }
 .bordes:hover{
-    background-color: var(--AzulClaro);
+    background-color: var(--beigeMasOscuro);
     color: var(--blanco);
 }
 .btn:hover{
     cursor: pointer;
 }
 .azul{
-    background-color: var(--AzulClaro);
+    background-color: var(--beigeMasOscuro);
 }
 @keyframes desplazamiento {
 
@@ -111,7 +112,7 @@ p, a{
     font-size: 3rem;
 }
 .logo h2 span{
-    color: var(--azulOscuro);
+    color: var(--beigeOscuro);
 }
 .contenido-navegacion{
     display: flex;
@@ -141,12 +142,12 @@ p, a{
     display: block;
     font-size: 2rem;
     padding: 1.1rem;
-    color: var(--oscuro);
+    color: var(--beigeOscuro);
     text-decoration: none;
     transition: background-color .3s ease-in-out;
 }
 .navegacion a:hover{
-    background-color: var(--AzulClaro);
+    background-color: var(--beigeMasOscuro);
     color: var(--blanco)
 }
 @media(min-width: 768px){
@@ -167,7 +168,7 @@ p, a{
     width: 5rem;
     height: 1rem;
     border: 3px solid white;
-    background-color: var(--oscuro);
+    background-color: var(--beigeOscuro);
     display: block;
 }
 @media(min-width:768px){
@@ -247,7 +248,7 @@ p, a{
 }
 .ventajas{
     padding: 5rem;
-    background-color: var(--azulOscuro);
+    background-color: var(--beigeOscuro);
 }
 .ventaja{
     color: var(--blanco);
@@ -269,7 +270,7 @@ p, a{
 .nosotras h2{
     text-align: center;
     font-size: 4rem;
-    color: var(--AzulClaro);
+    color: var(--beigeMasOscuro);
 }
 @media(min-width:768px){
     .nosotras h2{
@@ -302,7 +303,7 @@ p, a{
 }
 .texto-nosotras h3{
     font-size: 4rem;
-    color: var(--AzulClaro);
+    color: var(--beigeMasOscuro);
     text-align: center;
 }
 .texto-nosotras p{
@@ -324,7 +325,7 @@ p, a{
 .servicios h2{
     font-size: 5rem;
     text-align: center;
-    color: var(--AzulClaro);
+    color: var(--beigeMasOscuro);
 }
 @media(min-width: 768px){
     .contenido-servicios{
@@ -339,7 +340,7 @@ p, a{
     align-items: center;
 }
 .servicio i{
-    background-color: var(--AzulClaro);
+    background-color: var(--beigeMasOscuro);
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
@@ -353,7 +354,7 @@ p, a{
 }
 .servicio h3{
     font-size: 2.2rem;
-    color: var(--azulOscuro);
+    color: var(--beigeOscuro);
 }
 .servicio p{
     font-size: 1.8rem;
@@ -370,7 +371,7 @@ p, a{
     }
     .servicio:hover .fa-solid{
         background-color: var(--blanco);
-        color: var(--AzulClaro);
+        color: var(--beigeMasOscuro);
     }
 }
 
@@ -382,7 +383,7 @@ p, a{
 }
 .contacto h2{
     text-align: center;
-    color: var(--AzulClaro);
+    color: var(--beigeMasOscuro);
     font-size: 5rem;
 }
 @media(min-width: 768px){
@@ -433,7 +434,7 @@ p, a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--azulOscuro);
+    background-color: var(--beigeOscuro);
 }
 .input-contacto label{
     color: var(--blanco);
@@ -457,7 +458,7 @@ p, a{
 }
 .input-contacto input[type="submit"]:hover{
     background-color: var(--blanco);
-    color: var(--AzulClaro);
+    color: var(--beigeMasOscuro);
 }
 .footer{
     text-align: center;
