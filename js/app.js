@@ -7,14 +7,12 @@ document.addEventListener('DOMContentLoaded',()=>{
     cerrarMenu();
     fechaActual();
 });
-
 function mostrarMenu(){
     hamburguesa.addEventListener('click',()=>{
         navegacion.classList.toggle('ocultar');
 
     });
 }
-
 function cerrarMenu(){
     enlaces.forEach(enlace =>{
         enlace.addEventListener('click',(e)=>{
@@ -32,8 +30,6 @@ function cambioSeccion(seccion){
         behavior:'smooth'
     })
 }
-
-
 function fechaActual(){
     let fechaHoy = new Date().getFullYear();
     fecha.textContent = fechaHoy;

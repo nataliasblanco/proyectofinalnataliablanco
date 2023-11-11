@@ -6,40 +6,34 @@
     --titulos: 'Work Sans', cursive;
     --parrafos: 'Roboto', sans-seriff;
 }
-
 html{
     box-sizing: border-box;
     font-size: 62.5%;
 }
-
 body {
     font-size: 1.6rem;
 }
-
 *,*::before, *::after{
     box-sizing: inherit;
 }
 
 
 /*ESTILOS GENERALES*/
+
 h1, h2, h3{
     font-family: var(--titulos);
 }
-
 p, a{
     font-family: var(--parrafos);
 }
-
 .ocultar{
     display: none;
 }
-
 .contenedor{
     margin: 0 auto;
     max-width: 120rem;
     width: 95%;
 }
-
 .btn{
     padding: 1rem 4rem;
     font-weight: bold;
@@ -47,7 +41,6 @@ p, a{
     font-size: 2rem;
     border: none;
     color: var(--blanco);
-
 }
 .bordes{
     border: 2px solid var(--AzulClaro);
@@ -56,7 +49,6 @@ p, a{
     display: block;
     text-align: center;
     transition: background-color .3s ease-in-out;
-
 }
 @media(min-width: 768px){
     .bordes{
@@ -64,16 +56,13 @@ p, a{
         margin-top: 2rem;
     }
 }
-
 .bordes:hover{
     background-color: var(--AzulClaro);
     color: var(--blanco);
 }
-
 .btn:hover{
     cursor: pointer;
 }
-
 .azul{
     background-color: var(--AzulClaro);
 }
@@ -90,6 +79,7 @@ p, a{
     }
 }
 
+
 /*ENCABEZADO*/
 
 .encabezado{
@@ -102,7 +92,6 @@ p, a{
     position: relative;
     z-index: 1;
 }
-
 .encabezado::before{
     content: '';
     position: absolute;
@@ -113,21 +102,17 @@ p, a{
     background-color: rgba(0,0,0,.5);
     z-index: -1;
 }
-
 @media(min-width:768px){
     .encabezado{
         background-attachment: fixed;
     }
 }
-
 .logo h2{
     font-size: 3rem;
 }
-
 .logo h2 span{
     color: var(--azulOscuro);
 }
-
 .contenido-navegacion{
     display: flex;
     align-items: center;
@@ -139,7 +124,6 @@ p, a{
     width: 100%;
     z-index: 2;
 }
-
 .navegacion{
     background-color: var(--blanco);
     position: absolute;
@@ -148,13 +132,11 @@ p, a{
     width: 100%;
     animation: desplazamiento .5s ease-in-out;
 }
-
 @media(min-width: 768px){
     .ocultar{
         display: inline;
     }
 }
-
 .navegacion a{
     display: block;
     font-size: 2rem;
@@ -163,18 +145,15 @@ p, a{
     text-decoration: none;
     transition: background-color .3s ease-in-out;
 }
-
 .navegacion a:hover{
     background-color: var(--AzulClaro);
     color: var(--blanco)
 }
-
 @media(min-width: 768px){
     .navegacion a{
         display: inline;
     }
 }
-
 @media(min-width: 768px){
     .navegacion{
         position: relative;
@@ -184,7 +163,6 @@ p, a{
         animation: unset;
     }
 }
-
 .hamburguesa span{
     width: 5rem;
     height: 1rem;
@@ -192,7 +170,6 @@ p, a{
     background-color: var(--oscuro);
     display: block;
 }
-
 @media(min-width:768px){
     .hamburguesa{
         display: none;
@@ -213,14 +190,12 @@ p, a{
         flex: 0 0 calc(50% - 1rem);
     }
 }
-
 .texto-encabezado h1{
     font-size: 3rem;
     text-align: center;
     color: var(--blanco);
     padding-top: 8rem;
 }
-
 @media(min-width: 768px){
     .texto-encabezado h1{
         font-size: 7rem;
@@ -228,7 +203,6 @@ p, a{
         padding-top: 0;
     }
 }
-
 .formulario-encabezado{
     background-color: var(--blanco);
     display: flex;
@@ -237,24 +211,20 @@ p, a{
     padding: 5rem;
     border-radius: .5rem;
 }
-
 .formulario-encabezado h2{
     font-size: 3rem;
     text-align: center;
     margin-top: 0%;
 }
-
 @media(min-width: 768px){
     .formulario-encabezado h2{
         font-size: 3rem;
     }
 }
-
 .input-encabezado{
     margin-bottom: 1rem;
     width: 100%;
 }
-
 .input-encabezado input{
     width: 100%;
     padding: 0 1.6rem;
@@ -267,6 +237,7 @@ p, a{
 
 
 /*VENTAJAS ESTUDIO JURÍDICO*/
+
 @media(min-width: 768px){
     .contenido-ventajas{
         display: grid;
@@ -274,46 +245,39 @@ p, a{
         gap: 1rem;
     }
 }
-
 .ventajas{
     padding: 5rem;
     background-color: var(--azulOscuro);
 }
-
 .ventaja{
     color: var(--blanco);
     text-align: center;
 }
-
 .ventaja i{
     font-size: 4rem;
 }
-
 .ventaja h3{
     font-size: 2.5rem;
 }
-
 .ventaja p{
     font-size: 2rem;
 }
 
 
-/*SECCIÓN SOBRE NOSOTROS*/
+/*SECCION NOSOTRAS*/
 
-.nosotros h2{
+.nosotras h2{
     text-align: center;
     font-size: 4rem;
     color: var(--AzulClaro);
 }
-
 @media(min-width:768px){
-    .nosotros h2{
+    .nosotras h2{
         font-size: 5rem;
     }
 }
-
-.contenido-nosotros{
-    background-image: url('../img/nosotros.avif');
+.contenido-nosotras{
+    background-image: url('../img/nosotras.avif');
     display: grid;
     grid-template-rows: repeat(2,1fr);
     background-size: cover;
@@ -321,54 +285,47 @@ p, a{
 }
 
 @media(min-width: 768px){
-    .contenido-nosotros{
+    .contenido-nosotras{
         grid-template-columns: repeat(2,1fr);
         background-attachment: fixed;
     }
 }
-
-.texto-nosotros{
+.texto-nosotras{
     padding: 2rem;
     grid-row: 2/3;
     background-color: var(--blanco);
 }
-
 @media(min-width: 768px){
-    .texto-nosotros{
+    .texto-nosotras{
         padding: 5rem;
     }
 }
-
-.texto-nosotros h3{
+.texto-nosotras h3{
     font-size: 4rem;
     color: var(--AzulClaro);
     text-align: center;
 }
-
-.texto-nosotros p{
+.texto-nosotras p{
     font-size: 2.2rem;
     text-align: center;
 }
-
 @media(min-width: 768px){
-    .texto-nosotros p{
+    .texto-nosotras p{
         text-align: left;
     }
 }
 
 
-/*SECCIÓN SERVICIOS*/
+/*SECCION SERVICIOS*/
 
 .servicios{
     padding-top: 5rem;
 }
-
 .servicios h2{
     font-size: 5rem;
     text-align: center;
     color: var(--AzulClaro);
 }
-
 @media(min-width: 768px){
     .contenido-servicios{
         display: grid;
@@ -376,13 +333,11 @@ p, a{
         gap: 4rem;
     }
 }
-
 .servicio{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .servicio i{
     background-color: var(--AzulClaro);
     width: 10rem;
@@ -396,23 +351,19 @@ p, a{
     box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.45);
     transition: all .3s ease-in-out;
 }
-
 .servicio h3{
     font-size: 2.2rem;
     color: var(--azulOscuro);
 }
-
 .servicio p{
     font-size: 1.8rem;
     text-align: center;
 }
-
 @media(min-width: 768px){
     .servicio p{
         text-align: left;
     }
 }
-
 @media(min-width: 768px){
     .servicio:hover{
         cursor: pointer;
@@ -424,25 +375,22 @@ p, a{
 }
 
 
-/*SECCIÓN CONTACTO*/
+/*SECCION CONTACTO*/
 
 .contacto{
     padding-top: 5rem;
 }
-
 .contacto h2{
     text-align: center;
     color: var(--AzulClaro);
     font-size: 5rem;
 }
-
 @media(min-width: 768px){
     .contenido-contacto{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
 }
-
 .informacion-contacto{
     background-image: url('../img/contacto.avif');
     background-size: cover;
@@ -455,13 +403,11 @@ p, a{
     align-items: center;
     justify-content: center;
 }
-
 @media(min-widht: 768px){
     .informacion-contacto{
         height: 100vh;
     }
 }
-
 .informacion.contacto::before{
     content: '';
     position: absolute;
@@ -472,20 +418,16 @@ p, a{
     background-color: rgba(0,0,o,0.5);
     z-index: -1;
 }
-
 .informacion-contacto h3{
     font-size: 4rem;
     text-align: center;
 }
-
 .informacion-contacto p{
     font-size: 2rem;
 }
-
 .informacion-contacto h3, .informacion-contacto p{
     color: var(--blanco);
 }
-
 .formulario-contacto{
     padding: 5rem;
     display: flex;
@@ -500,32 +442,26 @@ p, a{
     margin: 1rem 0;
     font-weight: bold;
 }
-
 .input-contacto input{
     padding: 1.2rem 1rem;
     font-family: var(--parrafos);
 }
-
 .input-contacto input, .input-contacto textarea{
     width: 100%;
     outline: none;
 }
-
 .input-contacto input[type="submit"]{
     width: auto;
     padding: 1rem 3rem;
     transition: background-color .3s ease-in-out;
 }
-
 .input-contacto input[type="submit"]:hover{
     background-color: var(--blanco);
     color: var(--AzulClaro);
 }
-
 .footer{
     text-align: center;
 }
-
 @media(min-width: 768px){
     .footer{
         display: flex;
