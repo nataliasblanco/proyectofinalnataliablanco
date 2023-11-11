@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,37 +8,39 @@
     <title>Estudio Jurídico Blanco Asociadas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Work+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/66be17e02e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <header class="encabezado">
+    <header class="encabezado" id="inicio">
         <div class="contenido-navegacion">
             <div class="logo">
                 <h2>Estudio Jurídico <span>Blanco Asociadas</span></h2>
             </div>
 
             <nav class="navegacion ocultar">
-                <a href="#">Inicio</a>
-                <a href="#">Nosotros</a>
-                <a href="#">Servicios</a>
-                <a href="#">Contacto</a>
-            </nav>  
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
             <div class="hamburguesa">
                 <span></span><span></span><span></span>
             </div>
         </div>
-        
-        <div class="contenido-encabezado">
+
+        <div class="contenido-encabezado contenedor">
             <div class="texto-encabezado">
                 <h1>Bienvenidos a su asesoría legal</h1>
             </div>
 
             <form class="formulario-encabezado">
-                <h2>Deje su consulta legal con nosotros</h2>
+                <h2>Agende una cita con nosotros</h2>
                 <div class="input-encabezado">
                     <input type="text" placeholder="Nombre y Apellido">
                 </div>
@@ -47,17 +48,129 @@
                     <input type="text" placeholder="Correo electrónico">
                 </div>
                 <div class="input-encabezado">
-                    <input type="text" placeholder="Consulta legal">
+                    <input type="text" placeholder="Celular de contacto">
                 </div>
 
                 <div class="boton-encabezado">
-                    <input type="submit" value="Enviar">
+                    <input class="btn azul" type="submit" value="Enviar">
                 </div>
 
             </form>
         </div>
     </header>
 
+    <div class="ventajas">
+        <div class="contenido-ventajas contenedor">
+            <div class="ventaja">
+                <i class="fa-solid fa-clock"></i>
+                <h3>Entregas en tiempo y forma</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et debitis sed, ipsam necessitatibus at aut
+                    laboriosam non quisquam tempora odit voluptas hic? Ducimus nam totam quod? Asperiores eos aut excepturi.
+                </p>
+            </div>
+            <div class="ventaja">
+                <i class="fa-solid fa-scale-balanced"></i>
+                <h3>Asesoría en distintas áreas</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et debitis sed, ipsam necessitatibus at aut
+                    laboriosam non quisquam tempora odit voluptas hic? Ducimus nam totam quod? Asperiores eos aut excepturi.
+                </p>
+            </div>
+            <div class="ventaja">
+                <i class="fa-solid fa-earth-americas"></i>
+                <h3>Asesoría internacional</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et debitis sed, ipsam necessitatibus at aut
+                    laboriosam non quisquam tempora odit voluptas hic? Ducimus nam totam quod? Asperiores eos aut excepturi.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="nosotros contenedor" id="nosotros">
+        <h2>Sobre nosotros</h2>
+        <div class="contenido-nosotros">
+            
+            <div class="texto-nosotros">
+                <h3>El estudio cuenta con profesionales comprometidos con sus clientes.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, id soluta rem nam fugit asperiores quas vel eaque, exercitationem voluptas ratione quisquam voluptatibus incidunt debitis vitae! Nesciunt corrupti laudantium quibusdam!</p>
+                <a href="#" class="btn bordes">Más información</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="servicios contenedor" id="servicios">
+        <h2>Servicios</h2>
+        <div class="contenido-servicios">
+            <div class="servicio">
+                <i class="fa-solid fa-landmark"></i>
+                <h3>Derecho Civil y Comercial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo illum repellendus maxime ab voluptatum enim, minima aut veritatis dolores, doloribus dolorum pariatur aliquid error praesentium sunt sed temporibus ex repudiandae.</p>
+            </div>
+            <div class="servicio">
+                <i class="fa-solid fa-handcuffs"></i>
+                <h3>Derecho Penal</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo illum repellendus maxime ab voluptatum enim, minima aut veritatis dolores, doloribus dolorum pariatur aliquid error praesentium sunt sed temporibus ex repudiandae.</p>
+            </div>
+            <div class="servicio">
+                <i class="fa-solid fa-suitcase"></i>
+                <h3>Derecho Laboral</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo illum repellendus maxime ab voluptatum enim, minima aut veritatis dolores, doloribus dolorum pariatur aliquid error praesentium sunt sed temporibus ex repudiandae.</p>
+            </div>
+            <div class="servicio">
+                <i class="fa-solid fa-file-lines"></i>
+                <h3>Derecho Contractual</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo illum repellendus maxime ab voluptatum enim, minima aut veritatis dolores, doloribus dolorum pariatur aliquid error praesentium sunt sed temporibus ex repudiandae.</p>
+            </div>
+            <div class="servicio">
+                <i class="fa-solid fa-seedling"></i>
+                <h3>Derecho Ambiental</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo illum repellendus maxime ab voluptatum enim, minima aut veritatis dolores, doloribus dolorum pariatur aliquid error praesentium sunt sed temporibus ex repudiandae.</p>
+            </div>
+            <div class="servicio">
+                <i class="fa-solid fa-ship"></i>
+                <h3>Derecho Marítimo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo illum repellendus maxime ab voluptatum enim, minima aut veritatis dolores, doloribus dolorum pariatur aliquid error praesentium sunt sed temporibus ex repudiandae.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <div class="contenido-contacto">
+            <div class="informacion-contacto">
+                <h3>Información de contacto</h3>
+                <p>blancoabogadas@asesorialegal.com.ar</p>
+                <p>11-0000-1234</p>
+                <p>Av. Leandro N. Alem 1111, C.A.B.A.</p>
+            </div>
+            <form class="formulario-contacto">
+                <div class="input-contacto">
+                    <label for="nombreyapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreyapellido" placeholder="Tomas Gómez">
+                </div>
+                <div class="input-contacto">
+                    <label for="correoelectronico">Correo electrónico</label>
+                    <input type="text" id="correoelectronico" placeholder="example@example.com">
+                </div>
+                <div class="input-contacto">
+                    <label for="celulardecontacto">Celular de contacto</label>
+                    <input type="text" id="celulardecontacto" placeholder="1234567890">
+                </div>
+                <div class="input-contacto">
+                    <label for="consultalegal">Consulta legal</label>
+                    <textarea></textarea>
+                </div>
+                <div class="input-contacto">
+                    <input type="submit" value="Enviar" class="btn azul">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy Blanco Asociadas. Todos los derechos reservados.<span class="fecha"></span></p>
+    </footer>
+
+
     <script src="js/app.js"></script>
 </body>
+
 </html>
