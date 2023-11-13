@@ -83,8 +83,15 @@ p, a{
 
 /*ENCABEZADO*/
 
+.icono-bienvenida{
+    width: 80px;
+    margin-right: 10px;
+    margin-left: 30px;
+    filter: hightness(1.1);
+    mix-blend-mode: multiply;
+}
 .encabezado{
-    background-image: url(/img/fondocolumnamuseo.avif);
+    background-image: url('../img/nosotras.avif');
     background-repeat: no-repeat;
     height: 100vh;
     min-height: 70rem;
@@ -192,6 +199,7 @@ p, a{
     }
 }
 .texto-encabezado h1{
+    display: flex;
     font-size: 3rem;
     text-align: center;
     color: var(--blanco);
