@@ -34,3 +34,15 @@ function fechaActual(){
     let fechaHoy = new Date().getFullYear();
     fecha.textContent = fechaHoy;
 }
+var estudioJuridico = {
+    nombre: "Estudio Jurídico Blanco Asociadas",
+    abogadas: ["Camila S. Blanco", "Natalia S. Blanco"],
+    mostrarInformacion: function() {
+      console.log("Nombre del estudio: " + this.nombre);
+      console.log("Abogadas:");
+      for (var i = 0; i < this.abogadas.length; i++) {
+        console.log("- " + this.abogadas[i]);
+      }
+    }
+  };
+estudioJuridico.mostrarInformacion();

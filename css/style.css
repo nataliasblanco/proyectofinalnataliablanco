@@ -1,5 +1,5 @@
 :root{
-    --oscuro: #07070A;
+    --oscuro: #c;
     --beigeOscuro: #b08e6b;
     --beigeMasOscuro: #7a5c3c;
     --blanco: #fefcfb;
@@ -305,7 +305,7 @@ p, a{
 @media(min-width: 768px){
     .texto-nosotras{
         padding: 5rem;
-        font-size: x-small;
+        font-size: 10rem;
     }
 }
 .texto-nosotras h3{
@@ -425,7 +425,7 @@ p, a{
 
 /*SECCION CONTACTO*/
 
-.contacto{
+#contacto{
     padding-top: 5rem;
 }
 .contacto h2{
@@ -440,7 +440,7 @@ p, a{
     }
 }
 .informacion-contacto{
-    background-image: url('../img/contacto.avif');
+    background-image: url('../img/contact.avif');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -450,7 +450,8 @@ p, a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    opacity: 80%;
+    opacity: 60%;
+    font-weight: bold;
 }
 @media(min-widht: 768px){
     .informacion-contacto{
@@ -475,7 +476,7 @@ p, a{
     font-size: 2rem;
 }
 .informacion-contacto h3, .informacion-contacto p{
-    color: var(--blanco);
+    color: var(--oscuro);
 }
 .formulario-contacto{
     padding: 5rem;
