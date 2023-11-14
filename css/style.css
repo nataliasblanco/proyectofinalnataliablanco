@@ -34,46 +34,23 @@ p, a{
     max-width: 120rem;
     width: 95%;
 }
-.btn{
+.btnmarron{
     padding: 1rem 4rem;
-    font-weight: bold;
+    font-weight: lighter;
     font-family: var(--parrafos);
     font-size: 2rem;
     border: none;
     color: var(--blanco);
-}
-.bordes{
-    border: 2px solid var(--beigeMasOscuro);
-    color: var(--beigeMasOscuro);
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    transition: background-color .3s ease-in-out;
-}
-@media(min-width: 768px){
-    .bordes{
-        display: inline-block;
-        margin-top: 2rem;
-    }
-}
-.bordes:hover{
     background-color: var(--beigeMasOscuro);
-    color: var(--blanco);
 }
-.btn:hover{
+.btnmarron:hover{
     cursor: pointer;
 }
-.azul{
-    background-color: var(--beigeMasOscuro);
-}
 @keyframes desplazamiento {
-
     /*desplazamiento inicial*/
-
     0%{
         transform: translateX(-100%);
     }
-
     100%{
         transform: translateX(0);
     }
@@ -99,6 +76,11 @@ p, a{
     position: relative;
     z-index: 1;
 }
+@media(min-width:768px){
+    .encabezado{
+        background-attachment: fixed;
+    }
+}
 .encabezado::before{
     content: '';
     position: absolute;
@@ -108,11 +90,6 @@ p, a{
     bottom: 0;
     background-color: rgba(0,0,0,.5);
     z-index: -1;
-}
-@media(min-width:768px){
-    .encabezado{
-        background-attachment: fixed;
-    }
 }
 .logo h2{
     font-size: 3rem;
@@ -129,7 +106,7 @@ p, a{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 3ssss;
 }
 .navegacion{
     background-color: var(--blanco);
@@ -208,6 +185,7 @@ p, a{
     .texto-encabezado h1{
         font-size: 7rem;
         text-align: left;
+        padding-top: 0;
     }
 }
 .formulario-encabezado{
@@ -278,7 +256,7 @@ p, a{
     font-size: 4rem;
     color: var(--beigeMasOscuro);
 }
-@media(min-width:768px){
+@media(min-width: 768px){
     .nosotras h2{
         font-size: 5rem;
     }
@@ -453,7 +431,7 @@ p, a{
     opacity: 60%;
     font-weight: bold;
 }
-@media(min-widht: 768px){
+@media(min-width: 768px){
     .informacion-contacto{
         height: 100vh;
     }
@@ -490,7 +468,7 @@ p, a{
     font-family: var(--parrafos);
     display: block;
     margin: 1rem 0;
-    font-weight: bold;
+    font-weight: lighter;
 }
 .input-contacto input{
     padding: 1.2rem 1rem;
@@ -509,15 +487,43 @@ p, a{
     background-color: var(--blanco);
     color: var(--beigeMasOscuro);
 }
+.btnblanco{
+    padding: 1rem 4rem;
+    font-weight: lighter;
+    font-family: var(--parrafos);
+    font-size: 1.5rem;
+    border: none;
+    color: var(--blanco);
+    background-color: var(--beigeMasOscuro);
+}
+.btnblanco:hover{
+    cursor: pointer;
+}
 .enlacelinkedin .enlaceyoutube{
     display: inline-block;
+    text-decoration: none;
 }
 .iconolinkedin, .iconoyoutube {
     width: 20px;
     height: 20px;
 }
+.linkedin-youtube{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+.copyright{
+    position: relative;
+    top: 1rem;
+    text-align: center;
+    margin-top: 1px;
+}
 .footer{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 @media(min-width: 768px){
     .footer{
