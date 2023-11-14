@@ -44,10 +44,10 @@ var estudioJuridico = {
         console.log("- " + this.abogadas[i]);
       }
     }
-  };
+};
 estudioJuridico.mostrarInformacion();
 function abrirDocumentoPDF() {
     var rutaDocumentoPDF = 'testimonios.pdf';
 
     window.open(rutaDocumentoPDF, '_blank');
-  }
+}

@@ -221,7 +221,7 @@ p, a{
 }
 
 
-/*VENTAJAS ESTUDIO JURÍDICO*/
+/*VENTAJAS*/
 
 @media(min-width: 768px){
     .contenido-ventajas{
@@ -360,6 +360,13 @@ p, a{
     cursor: pointer;
     background-color: var(--beigeOscuro);
 }
+@media(min-width: 768px){
+    .nsotrasperfiles{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 4rem;
+    }
+}
 
 
 /*SECCION SERVICIOS*/
@@ -418,6 +425,44 @@ p, a{
         background-color: var(--blanco);
         color: var(--beigeMasOscuro);
     }
+}
+
+
+/*SECCION CONSEJOS*/
+
+.consejos-contenedor h2{
+    font-size: 4rem;
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 4rem;
+}
+#consejos{
+    margin-top: auto;
+    padding: 3rem;
+    background-color: #b5b5b5;
+}
+.lista-consejos {
+    list-style: none;
+    padding: 0;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: left;
+}
+
+.lista-consejos li {
+    margin-bottom: 10px;
+}
+
+.lista-consejos h4 {
+    color: var(--blanco);
+    font-size: x-large;
+    font-family: var(--titulos);
+    margin-bottom: 10px;
+}
+.lista-consejos p {
+    color: var(--oscuro);
+    font-family: var(--parrafos);
+    margin-top: 5px;
 }
 
 
