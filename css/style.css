@@ -300,10 +300,6 @@ p, a{
         text-align: left;
     }
 }
-.btnmasinfo{
-    font-size: 3px;
-    cursor: pointer;
-}
 .miembro1, .miembro2 {
     color: #7a5c3c;
     font-size: 40px;
@@ -343,6 +339,19 @@ p, a{
 .icononati{
     border-radius: 0%;
     filter: grayscale(40%);
+}
+.btntestimonios{
+    padding: 1rem 4rem;
+    font-weight: lighter;
+    font-family: var(--parrafos);
+    font-size: 1.5rem;
+    border: none;
+    color: var(--blanco);
+    background-color: var(--beigeMasOscuro);
+}
+.btntestimonios:hover{
+    cursor: pointer;
+    background-color: var(--beigeOscuro);
 }
 
 
