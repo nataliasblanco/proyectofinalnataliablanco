@@ -268,8 +268,13 @@ p, a{
     background-size: cover;
     background-position: center center;
 }
-
 @media(min-width: 768px){
+    .contenido-nosotras{
+        grid-template-columns: repeat(2,1fr);
+        background-attachment: fixed;
+    }
+}
+@media(max-width: 768px){
     .contenido-nosotras{
         grid-template-columns: repeat(2,1fr);
         background-attachment: fixed;
