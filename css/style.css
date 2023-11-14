@@ -300,6 +300,10 @@ p, a{
         text-align: left;
     }
 }
+.btnmasinfo{
+    font-size: 3px;
+    cursor: pointer;
+}
 .miembro1, .miembro2 {
     color: #7a5c3c;
     font-size: 40px;
