@@ -310,6 +310,13 @@ p, a{
     display: flex;
     justify-content: space-around;
 }
+@media(max-width: 767px){
+    .miembro1, .miembro2{
+    padding-top: 2rem;
+    text-align: center;
+    flex-direction: column;
+    }
+}
 .nombredoctoras {
     color: var(--oscuro);
     font-size: 33px;
