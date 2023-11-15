@@ -7,6 +7,10 @@ La página web proporciona información sobre el estudio jurídico, sus servicio
 ## Logo
 ![martilloabogado2](img/martilloabogado2.jpg)
 
+## Favicon
+El logo fue agregado a la pestaña del navegador mediante la etiqueta <link> en HTML que se llama "favicon".
+![0.favicon](img/0.favicon.png)
+
 ## Contenido del Repositorio
 - **HTML**: El código HTML se encuentra en el archivo `index.html` e incluye la estructura básica de la página.
 - **CSS**: El estilo de la página está definido en el archivo `style.css`, con estilos generales y específicos para cada sección.
