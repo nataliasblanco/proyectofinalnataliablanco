@@ -5,7 +5,7 @@ Este repositorio contiene el código fuente de la página web del Estudio Juríd
 La página web proporciona información sobre el estudio jurídico, sus servicios y el equipo de abogadas. Además, ofrece la posibilidad de agendar una cita y contactar con el estudio para consultas legales.
 
 ## Logo
-![martilloabogado2](img/martilloabogado2.png)
+![martilloabogado2](img/martilloabogado2.jpg)
 
 ## Contenido del Repositorio
 - **HTML**: El código HTML se encuentra en el archivo `index.html` e incluye la estructura básica de la página.
@@ -21,6 +21,11 @@ La página web proporciona información sobre el estudio jurídico, sus servicio
 
 ## Equipo
 El Estudio Jurídico Blanco Asociadas está conformado por profesionales dedicadas y con experiencia en diversas áreas del derecho. Conoce más sobre nuestro equipo en la sección [Nosotras](#nosotras) de la página.
+
+## Socias imagenes
+Las imagenes fueron creadas con GIMP e Inkscape (dos programas utilizados en el curso realizado a través del programa BA Multiplica 2.0 llamado "Diseño Gráfico Digital, Gestión de Proyectos e Inteligencia Emocional".
+![nosotras1](img/nosotras1.jpg)
+![nosotras2](img/nosotras2.jpg)
 
 ## Contacto
 - **Correo Electrónico:** blancoabogadas@asesorialegal.com.ar
