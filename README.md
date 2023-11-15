@@ -49,4 +49,4 @@ Buscanos en [YouTube](https://www.youtube.com) y [LinkedIn](https://www.linkedin
 ![16.RDsocias](img/16.RDsocias.png)
 ![17.RDservicios](img/17.RDservicios.png)
 ![18.RDconsejos](img/18.RDconsejos.png)
-![19.RDfinalpagina](img/18.RDfinalpagina.png) 
+![19.RDfinalpagina](img/19.RDfinalpagina.png) 
