@@ -4,6 +4,9 @@ Este repositorio contiene el código fuente de la página web del Estudio Juríd
 ## Descripción
 La página web proporciona información sobre el estudio jurídico, sus servicios y el equipo de abogadas. Además, ofrece la posibilidad de agendar una cita y contactar con el estudio para consultas legales.
 
+## Logo
+![martilloabogado2](img/martilloabogado2.png) 
+
 ## Contenido del Repositorio
 - **HTML**: El código HTML se encuentra en el archivo `index.html` e incluye la estructura básica de la página.
 - **CSS**: El estilo de la página está definido en el archivo `style.css`, con estilos generales y específicos para cada sección.
