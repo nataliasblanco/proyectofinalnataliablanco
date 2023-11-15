@@ -29,3 +29,24 @@ Buscanos en [YouTube](https://www.youtube.com) y [LinkedIn](https://www.linkedin
 
 ## Derechos de Autor
 &copy; Blanco Asociadas. Todos los derechos reservados.
+
+## Capturas de pantalla de la pagina web
+![1.inicio](img/1.inicio.png)
+![2.ventajas](img/2.ventajas.png)
+![3.nosotras](img/3.nosotras.png)
+![4.estudio](img/4.estudio.png)
+![5.botontestimonios](img/5.botontestimonios.png)
+![6.pdftestimonios](img/6.pdftestimonios.png)
+![7.socias](img/7.socias.png)
+![8.servicios](img/8.servicios.png)
+![9.consejoslegales](img/9.consejoslegales.png)
+![10.contacto](img/10.contacto.png)
+![11.finalpagina](img/11.finalpagina.png)
+![12.RDinicio](img/12.RDinicio.png)
+![13.RDmenuhamburguesa](img/13.RDmenuhamburguesa.png)
+![14.RDventajas](img/14.RDventajas.png)
+![15.RDestudio](img/15.RDestudio.png)
+![16.RDsocias](img/16.RDsocias.png)
+![17.RDservicios](img/17.RDservicios.png)
+![18.RDconsejos](img/18.RDconsejos.png)
+![19.RDfinalpagina](img/18.RDfinalpagina.png) 
