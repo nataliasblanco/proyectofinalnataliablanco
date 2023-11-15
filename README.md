@@ -38,6 +38,9 @@ Buscanos en [YouTube](https://www.youtube.com) y [LinkedIn](https://www.linkedin
 ## Derechos de Autor
 &copy; Blanco Asociadas. Todos los derechos reservados.
 
+## Sketch
+![sketch3](img/sketch3.heic)
+
 ## Capturas de pantalla de la pagina web
 ![1.inicio](img/1.inicio.png)
 ![2.ventajas](img/2.ventajas.png)
