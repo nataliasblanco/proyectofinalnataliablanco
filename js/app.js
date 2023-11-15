@@ -51,3 +51,18 @@ function abrirDocumentoPDF() {
 
     window.open(rutaDocumentoPDF, '_blank');
 }
+document.getElementById("miformulario").addEventListener("submit", function(event) {
+    event.preventDefault();
+    validarFormulario();
+});
+function validarFormulario() {
+    var nombre = document.getElementById("nombreyapellido").value;
+    var correo = document.getElementById("correoelectronico").value;
+    var celular = document.getElementById("celulardecontacto").value;
+    var consulta = document.getElementById("consultalegal").value;
+    if (nombre === "" || correo === "" || celular === "" || consulta === "") {
+        alert("Todos los campos son obligatorios");
+        return;
+    }
+    document.getElementById("miformulario").submit();
+}
