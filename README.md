@@ -23,6 +23,7 @@ La página web proporciona información sobre el estudio jurídico, sus servicio
 El Estudio Jurídico Blanco Asociadas está conformado por profesionales dedicadas y con experiencia en diversas áreas del derecho. Conoce más sobre nuestro equipo en la sección [Nosotras](#nosotras) de la página.
 
 ## Socias imagenes
+Las imagenes fueron creadas con GIMP e Inkscape (dos programas utilizados en el curso realizado a través del programa BA Multiplica 2.0 llamado "Diseño Gráfico Digital, Gestión de Proyectos e Inteligencia Emocional".
 ![nosotras1](img/nosotras1.jpg)
 ![nosotras2](img/nosotras2.jpg)
 
