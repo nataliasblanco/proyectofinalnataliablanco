@@ -22,6 +22,10 @@ La página web proporciona información sobre el estudio jurídico, sus servicio
 ## Equipo
 El Estudio Jurídico Blanco Asociadas está conformado por profesionales dedicadas y con experiencia en diversas áreas del derecho. Conoce más sobre nuestro equipo en la sección [Nosotras](#nosotras) de la página.
 
+## Socias imagenes
+![nosotras1](img/nosotras1.jpg)
+![nosotras2](img/nosotras2.jpg)
+
 ## Contacto
 - **Correo Electrónico:** blancoabogadas@asesorialegal.com.ar
 - **Teléfono:** 11-0000-1234
