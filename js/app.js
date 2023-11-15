@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded',()=>{
 function mostrarMenu(){
     hamburguesa.addEventListener('click',()=>{
         navegacion.classList.toggle('ocultar');
-
     });
 }
 function cerrarMenu(){

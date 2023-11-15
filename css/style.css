@@ -276,7 +276,9 @@ p, a{
 }
 @media(max-width: 768px){
     .contenido-nosotras{
-        grid-template-columns: repeat(1,1fr);
+        background-position: top center;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
 .texto-nosotras{
