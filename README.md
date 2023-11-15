@@ -39,7 +39,7 @@ Buscanos en [YouTube](https://www.youtube.com) y [LinkedIn](https://www.linkedin
 &copy; Blanco Asociadas. Todos los derechos reservados.
 
 ## Sketch
-![sketch3](img/sketch3.heic)
+![sketch3](img/sketch3.jpg)
 
 ## Capturas de pantalla de la pagina web
 ![1.inicio](img/1.inicio.png)
