@@ -373,7 +373,6 @@ p, a{
 }
 
 
-
 /*SECCION SERVICIOS*/
 
 .servicios{
@@ -487,18 +486,12 @@ p, a{
         grid-template-columns: repeat(2,1fr);
     }
 }
-.informacion-contacto{
-    background-image: url('../img/contact.avif');
-    background-size: cover;
-    background-repeat: no-repeat;
+.informacion-contacto {
     position: relative;
-    z-index: -1;
-    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    opacity: 60%;
     font-weight: bold;
 }
 @media(min-width: 768px){
@@ -506,14 +499,17 @@ p, a{
         height: 100vh;
     }
 }
-.informacion.contacto::before{
+.informacion-contacto::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(0,0,o,0.5);
+    background-image: url('../img/contact.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
     z-index: -1;
 }
 .informacion-contacto h3{
