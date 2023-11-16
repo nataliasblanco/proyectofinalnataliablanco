@@ -325,6 +325,7 @@ p, a{
     padding-top: 2rem;
     text-align: center;
     flex-direction: column;
+    gap: none;
     }
 }
 .nombredoctoras {
@@ -370,13 +371,7 @@ p, a{
     cursor: pointer;
     background-color: var(--beigeOscuro);
 }
-@media(min-width: 768px){
-    .nsotrasperfiles{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 4rem;
-    }
-}
+
 
 
 /*SECCION SERVICIOS*/
