@@ -1,5 +1,5 @@
 # Estudio Jurídico Blanco Asociadas
-Este repositorio contiene el código fuente de la página web del Estudio Jurídico Blanco Asociadas.
+Esta página web fue diseñada como trabajo final para el curso de "Programación web frontend" y el repositorio contiene el código fuente de la página web del Estudio Jurídico Blanco Asociadas.
 
 ## Descripción
 La página web proporciona información sobre el estudio jurídico, sus servicios y el equipo de abogadas. Además, ofrece la posibilidad de agendar una cita y contactar con el estudio para consultas legales.
@@ -11,7 +11,7 @@ Natalia Soledad Blanco.
 ![martilloabogado2](img/martilloabogado2.jpg)
 
 ## Favicon
-El logo fue agregado a la pestaña del navegador mediante la etiqueta <link> en HTML que se llama "favicon".
+El logo del estudio jurídico fue agregado a la pestaña del navegador mediante la etiqueta <link> en HTML que se llama "favicon".
 ![0.favicon](img/0.favicon.png)
 
 ## Contenido del Repositorio
