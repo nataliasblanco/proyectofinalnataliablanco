@@ -4,6 +4,9 @@ Este repositorio contiene el código fuente de la página web del Estudio Juríd
 ## Descripción
 La página web proporciona información sobre el estudio jurídico, sus servicios y el equipo de abogadas. Además, ofrece la posibilidad de agendar una cita y contactar con el estudio para consultas legales.
 
+## Autora de la página web
+Natalia Soledad Blanco.
+
 ## Logo
 ![martilloabogado2](img/martilloabogado2.jpg)
 
