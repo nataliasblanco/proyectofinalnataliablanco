@@ -472,7 +472,7 @@ p, a{
 
 /*SECCION CONTACTO*/
 
-#contacto{
+.contacto{
     padding-top: 5rem;
 }
 .contacto h2{
@@ -522,6 +522,9 @@ p, a{
 .informacion-contacto h3, .informacion-contacto p{
     color: var(--oscuro);
 }
+#informaciondecontacto {
+    text-decoration: underline;
+  }
 .formulario-contacto{
     padding: 5rem;
     display: flex;
