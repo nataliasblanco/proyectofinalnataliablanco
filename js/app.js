@@ -1,3 +1,4 @@
+//Menu hamburguesa
 const hamburguesa = document.querySelector('.hamburguesa');
 const navegacion = document.querySelector('.navegacion');
 const enlaces = document.querySelectorAll('.navegacion a');
@@ -29,10 +30,12 @@ function cambioSeccion(seccion){
         behavior:'smooth'
     })
 }
+//Función utilizada para obtener el año actual y actualizar el copyrigth
 function fechaActual(){
     let fechaHoy = new Date().getFullYear();
     fecha.textContent = fechaHoy;
 }
+//POO
 var estudioJuridico = {
     nombre: "Estudio Jurídico Blanco Asociadas",
     abogadas: ["Camila S. Blanco", "Natalia S. Blanco"],
@@ -44,12 +47,14 @@ var estudioJuridico = {
       }
     }
 };
+//Acceso al pdf de testimonios
 estudioJuridico.mostrarInformacion();
 function abrirDocumentoPDF() {
     var rutaDocumentoPDF = 'testimonios.pdf';
 
     window.open(rutaDocumentoPDF, '_blank');
 }
+//Validación del formulario
 document.getElementById("miformulario").addEventListener("submit", function(event) {
     event.preventDefault();
     validarFormulario();
