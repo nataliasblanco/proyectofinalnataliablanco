@@ -7,6 +7,10 @@ La página web proporciona información sobre el estudio jurídico, sus servicio
 ## Autora de la página web
 Natalia Soledad Blanco.
 
+## Links
+- Link al Deploy en GitHub: https://nataliasblanco.github.io/proyectofinalnataliablanco/
+- Link al Repositorio de GitHub: https://github.com/nataliasblanco/proyectofinalnataliablanco.git
+
 ## Logo
 ![martilloabogado2](img/martilloabogado2.jpg)
 
